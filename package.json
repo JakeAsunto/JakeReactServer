@@ -3,8 +3,11 @@
   "description": "A development React Server..",
   "version": "6.5.7",
   "scripts": {
-    "start": "cd client && vite"
+    "dev": "vite --config client/vite.config.js",
+    "build": "vite build --watch --config client/vite.config.js",
+    "preview": "vite preview"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/JakeAsunto/JakeReactServer.git"
@@ -19,5 +22,26 @@
   "bugs": {
     "url": "https://github.com/JakeAsunto/JakeReactServer/issues"
   },
-  "homepage": "https://github.com/JakeAsunto/JakeReactServer"
+  "homepage": "https://github.com/JakeAsunto/JakeReactServer",
+    "dependencies": {
+    "@mui/material-next": "^6.0.0-alpha.93",
+    "bootstrap": "^5.3.0",
+    "child_process": "^1.0.2",
+    "exec-sh": "^0.4.0",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "react-router": "^6.14.2",
+    "react-router-dom": "^6.14.2",
+    "tail": "^2.2.6",
+    "umbress": "^1.3.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1"
+  }
 }
