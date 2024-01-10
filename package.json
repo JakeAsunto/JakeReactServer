@@ -1,0 +1,23 @@
+{
+  "name": "JakeReactServer",
+  "description": "A development React Server..",
+  "version": "6.5.7",
+  "scripts": {
+    "start": "cd client && vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JakeAsunto/JakeReactServer.git"
+  },
+  "keywords": [
+    "viteserver",
+    "react",
+    "reactserver"
+  ],
+  "author": "Jake Asunto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JakeAsunto/JakeReactServer/issues"
+  },
+  "homepage": "https://github.com/JakeAsunto/JakeReactServer"
+}
